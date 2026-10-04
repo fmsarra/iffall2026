@@ -1,0 +1,69 @@
+html {
+  color:rgb(0, 0, 0);
+  font-family: "mr-eaves", sans-serif; 
+  font-size: 15pt;
+}
+
+body {
+  margin: 5% 12%;
+}
+
+h1 {
+   color: black;
+    font-family: "mrs-eaves", serif;
+    background-color: #e8d8c3;
+    padding: 30px 12%;
+    margin: 0 0 30px 0;}
+
+    h1 {
+    background-color: #eabaa2;
+    padding: 25px 12%;
+    margin-left: -12%;
+    margin-right: -12%;
+}
+
+
+
+P{
+  font-size: 12pt;
+  line-height: 1.75;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+sup {
+  font-size: 60%;
+}
+dfn {font-weight: bold;
+  text-transform: lowercase;
+}
+
+
+cite {
+text-align: right;
+display: block
+}
+
+article {
+  margin: 6rem 0;
+}
+
+section {
+  margin: 2.5em 0;
+}
+
+.Bread Image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
