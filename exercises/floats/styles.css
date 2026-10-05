@@ -6,7 +6,4 @@
 .instructions {
   clear: both;
 }
-* <ol class="instructions">
-          <li>Make a selector for <code>.instructions</code>, and add the rule <code>clear: both;</code></li>
-        </ol> *
 
