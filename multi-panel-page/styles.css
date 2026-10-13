@@ -36,7 +36,7 @@ h4 {
     font-size: 20px;
     font-variation-settings: "wght" 700;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.2;
     margin-bottom: 10px;
 }
 
@@ -55,7 +55,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding-top: 48px;
-    padding-bottom: 42px;
+    padding-bottom: 40px;
 }
 
 
@@ -98,7 +98,7 @@ background-color: rgba(251, 131, 66, 0.25);
 .cap-photo {
     display: grid;
     grid-template-columns: 200px minmax(0, 1fr);
-    column-gap: 12px;
+    column-gap: 11px;
 }
 
 .cap-photo img {
@@ -125,15 +125,15 @@ background-color: rgba(251, 131, 66, 0.25);
 .finalssection {
     font-size: 26px;
     text-align: center;
-    line-height: 1.45;
+    line-height: 1.4;
     max-width: 60ch;
-    padding-top: 65px;
+    padding-top: 70px;
     padding-bottom: 80px;
     margin:auto;
 }
 
 .footer {
-    padding-top: 40px;
+    padding-top: 48px;
     width: 960px;
     margin-left: auto;
     margin-right: auto;
