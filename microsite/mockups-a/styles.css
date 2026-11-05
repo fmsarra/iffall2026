@@ -1,0 +1,27 @@
+body {
+      margin: 0;
+      padding: 20px;
+      font-family: sans-serif;
+      background-color: #f4f4f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+      flex-direction: column;
+      padding-bottom: 5%;
+    }
+
+    .image-container {
+      width: 100%;
+      max-width: 1000px;
+      border-radius: 8px;
+      overflow: hidden;
+      display: flex;
+      padding-bottom: 5%;
+    }
+ .image-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
