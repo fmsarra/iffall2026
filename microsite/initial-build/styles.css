@@ -1,0 +1,187 @@
+.content {
+    margin: 0 20%;
+    padding: 25px 0;
+}
+
+body {
+    margin: 0;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: "panther-black", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: "panther-black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    margin: 0 0 15px 0;
+    line-height: 1;
+}
+
+.title-background,
+.tech-background,
+.golden-background,
+.conclusion-background {
+    background: radial-gradient(
+        circle at center,
+        #000000 0%,
+        #000000 35%,
+        #190027 65%,
+        #37025a 100%
+    );
+    color: white;
+    width: 100%;
+}
+
+
+.introduction-background {
+    background-color: #37025a;
+    width: 100%;
+    padding: 30px 0;
+    color: white;
+}
+
+.intro-content {
+    margin: 0 20%;
+}
+
+.intro-heading {
+    text-align: left;
+}
+
+.introduction {
+    display: flow-root;
+}
+
+
+/* tech */
+
+.tech-background {
+    width: 100%;
+    padding: 40px 0;
+
+    background: radial-gradient(
+        circle at center,
+        #000000 0%,
+        #000000 35%,
+        #190027 65%,
+        #37025a 100%
+    );
+
+    color: white;
+}
+
+.tech {
+    display: flow-root;
+    margin: 0 20%;
+}
+
+.tech h2 {
+    text-align: left;
+}
+
+.tech img {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* Key Characters */
+
+.gallery-background {
+    background-color: #37025a;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.gallery-background h2 {
+    color: white;
+    text-align: center;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.small-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.small-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.image-caption {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+
+/* Golden */
+
+.golden {
+    width: 100%;
+    text-align: center;
+}
+
+.golden img {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+    border-radius: 0 0 50% 50%;
+}
+
+
+/* Conclusion */
+
+.conclusion {
+    margin: 0 20%;
+    padding: 30px 0;
+}
+
+.conclusion h2 {
+    text-align: center;
+    margin-top: 6%;
+}
+
+.concluding-paragraph {
+    width: 100%;
+}
+
+.copywright {
+    margin-top: 6%;
+    background-color: #37025a;
+    text-align: left;
+}
