@@ -94,7 +94,6 @@ h2 {
 /* ==============================
    TITLE BACKGROUND
 ============================== */
-
 .title-background {
     color: white;
     display: flex;
@@ -109,6 +108,15 @@ h2 {
     background-attachment: fixed;
 }
 
+/* MOBILE RESPONSIVE BACKGROUND */
+@media (max-width: 768px) {
+    .title-background {
+        background-attachment: scroll;
+        background-position: center top;
+        background-size: cover;
+        min-height: 60vh;
+    }
+}
 
 /* ==============================
    INTRODUCTION
@@ -500,6 +508,16 @@ h2 {
     background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+/* MOBILE RESPONSIVE BACKGROUND */
+@media (max-width: 768px) {
+    .golden-background {
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        min-height: 70vh;
+    }
 }
 
 
